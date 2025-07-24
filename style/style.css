@@ -27,6 +27,12 @@
     align-items: center;
 }
 
+@media screen and (max-width:576px;) {
+    .navbar{
+        visibility: hidden;
+    }
+}
+
 /* header style */
 
 .head{
@@ -43,6 +49,11 @@
     gap: 10px;
 }
 
+@media screen and(max-width:576px){
+    .head{
+        flex-direction: column-reverse;
+    }
+}
 /* plants style */
 
 .plants_title{
@@ -85,4 +96,10 @@
     color: white;
     font-weight: 300;
     border: none;
+}
+
+.plants_lover{
+    display: flex;
+    align-items: center;
+    margin: 210px 150px 120px;
 }
