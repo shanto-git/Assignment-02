@@ -4,7 +4,7 @@
 .open-sans-normal{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 4000;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -27,3 +27,62 @@
     align-items: center;
 }
 
+/* header style */
+
+.head{
+    display: flex;
+    margin: 120px 0 ;
+}
+
+.head_title h1{
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.head_title{
+    gap: 10px;
+}
+
+/* plants style */
+
+.plants_title{
+    display: block;
+    margin: 120px 150px;
+    text-align: center;
+}
+
+.plants_title h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plants_title p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+
+.plants_item{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    margin: 120px 150px 210px;
+}
+
+.item{
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+.btn_style{
+    width: 270px;
+    background-color: #E95A08;
+    padding: 26px 50px;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    border: none;
+}
