@@ -154,7 +154,30 @@
     gap: 20px;
 }
 /* join section */
+
+.join-title{
+    background-image: url(../assets/news-letter-bg.png);
+    align-items: center;
+    text-align: center;
+    padding: 190px 300px;
+    background-repeat: no-repeat;
+    margin: 0%;
+}
+
+.join-title h1{
+    font-size: 50px;
+    color: white;
+}
+
 .join-section{
     width: 644px;
     height: 50px;
+}
+
+.btn{
+    width: 186px;
+    height: 55px;
+    background-color: #E95A08;
+    border: none;
+    color: white;
 }
