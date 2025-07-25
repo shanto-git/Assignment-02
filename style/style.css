@@ -188,6 +188,9 @@
     margin: 50px 150px;
     gap: 100px;
 }
+.footer-section p{
+    color: rgb(50, 49, 49);
+}
 
 .footer-item{
     display: flex;
@@ -201,4 +204,21 @@
 
 .tag2{
     display: block;
+}
+
+.social-item{
+    align-items: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+    .hide{
+        visibility: hidden;
+        width: 100%;
+    }
+    .body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 }
