@@ -181,3 +181,24 @@
     border: none;
     color: white;
 }
+
+/* footer */
+.footer-section{
+    display: flex;
+    margin: 50px 150px;
+    gap: 100px;
+}
+
+.footer-item{
+    display: flex;
+    gap: 110px;
+}
+
+.tag{
+    display: block;
+    justify-items: center;
+}
+
+.tag2{
+    display: block;
+}
